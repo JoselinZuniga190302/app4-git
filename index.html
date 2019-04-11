@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html> 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Día Internacional de la Madre Tierra</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/theme.app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!----Menu Lateral--->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/tierra-12.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Día Internacional de la Madre Tierra 22 de abril</h1>
+</div>
+<div class="container">
+<div id="sidebar">
+<ul data-role="listview"  data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>¿Pór que se celebra?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Historia del día</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>La Tierra que habitamos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Dialogo sobre armonía con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h4>Hacia una tierra sostenible</h4>
+</a>
+</li>
+</ul>
+</div>
+
+<div class="main-content">
+<div class="swipe-area"></div>
+<a href="#" data-toggle=".container" id="sidebar-toggle">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</a>
+</div>
+</div>
+<center>
+<br>
+<div class="slider">
+<ul>
+<li><img src="imagenes/tierra-1.jpg"alt="sldr"></li>
+<li>"<img src="imagenes/tierra-2.jpg"alt="sldr2"></li>
+<li><img src="imagenes/tierra-3.jpg" alt="sldr3"></li>
+<li><img src="imagenes/tierra-4.jpg"alt="sldr4"></li>
+<li><img src="imagenes/tierra-5.jpg"alt="sldr5"></li>
+<li><img src="imagenes/tierra-6.jpg"alt="sldr6"></li>
+<li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+<li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+</ul>
+</div>
+</center>
+<center>
+<div data-role="main" class="ui-content">
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Realizado por: </h1>
+<h2>JOSELIN DEL CARMEN ZUÑIGA ESQUIVEL</h2>
+<p> 4° Semestre Grupo: "E"</p>
+<h1>Especialidad</h1>
+<p>Programación</p>
+<h2>Submódulo</h2>
+<p> Desarrolla Aplicaciones Móviles</p>
+<h2>Docente:</h2>
+<p>Lic. Jóse Antonio Gómez Hernandez</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/tierra-12.jpg',1)"><img src="imagenes/tierra-2.jpg" width="369" height="380" id="Image28"></a>
+</div>
+</div>
+
+</center>
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Día de la madre Tierra</h4>
+<h4>Joselin del Carmen Zuñiga Esquivel</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>¿Por qué se celebra?</h1>
+</div>
+<center>
+<div data-role="main" class="ui-content">
+<p>
+	Celebramos el Dia Internacional de la madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este dia, asumimos, ademas, la responsabilidad colectiva como nos recordaba la Declaracion de Rio de 1992, de fomentar esta armonia con la naturaleza y la madre Tierra.
+Este dia nos brinda tambien la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de la vida que en el se desarrollan.
+
+</p>
+<img src="imagenes/tierra-4.jpg" width="60%" height="60%">
+</div>
+</center>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button">
+<h4>Ver más</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Joselin del Carmen Zuñiga Esquivel</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<!---Pagina 2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Historia del día</h1>
+
+</div>
+<div data-role="content" align="center">
+<p>El origen de este día, celebrado mundialmente (aunque no en todas partes), se encuentra en Estados Unidos, durante los 70. Y está asociado, sin duda, a un nombre: Gaylord Nelson. La historia cuenta (a pesar de los curiosos rumores sobre Lenin) que fue este político quién aprovechó un miércoles para organizar una manifestación en defensa del medio ambiente y el ecologismo. Un momento muy estudiado y que venía cociéndose desde la década de los 60 debido a la creciente irresponsabilidad ambiental del gobierno de Estados Unidos. Ya habían gérmenes plantados desde la comunidad científica y estudiantil. Ese miércoles los estudiantes y trabajadores se unieron en una manifestación pacífica que pretendía rendir homenaje y mostrar la preocupación colectiva sobre temas como el medio ambiente, la superpoblación o la conservación de la biodiversidad.
+
+ Debido a la participación de dos mil universidades, diez mil escuelas y centenares de comunidades, el gobierno Estadounidense decidió crear Agencia de Protección Ambiental. Este solo fue el comienzo. Durante el 72, la cumbre de la Tierra, en Estocolmo, puso de manifiesto la manifiesta necesidad de una ley medioambiental internacional más comprometida. En los noventa, la celebración del Día de la Tierra ya estaba mucho más generalizada fuera de Estados Unidos y a día de hoy se celebra a nivel mundial. Es más, la plataforma Día de la Tierra trata de promover la concienciación medio ambiental mientras que numerosos colectivos y entidades participan a su manera. Por ejemplo, Google promueve el día con un doodle y una actividad especial mientras que en empresas como Apple, bastante comprometidas con el medio ambiente, aprovechan este día para mostrar su informe de compromiso medioambiental. Gracias a iniciativas como esta, el mundo ha ido tomando una concienciación medioambiental que antes de los 70 era completamente inexistente o muy vaga. Gracias a esto hemos puesto remedio y frenado algunos de los problemas más acuciantes.
+</p>
+
+<div>
+<img src="imagenes/tierra-10.jpg" width="60%" height="60%">
+<img src="imagenes/tierra-11.jpg" width="60%" height="60%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="10%" height="10%">
+</div>
+<h4>Joselin del Carmen Zuñiga Esquivel</h4>
+</div>
+</div>
+</div>
+
+<!---Pagina 3-->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>La Tierra que habitamos</h1>
+
+</div>
+<div data-role="content" align="center">
+<p>La tierra que habitamos, así titula la Organización de Naciones Unidas (ONU) las actividades para la conmemoración del Día Internacional de la Tierra, este domingo 22 de abril.
+
+La Madre Tierra, como la llaman en muchas culturas, enfrenta quizá los años más difíciles desde sus inicios. Este día, menciona el comunicado de la ONU, será para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento.
+
+
+Además, es necesario que la humanidad asuma la responsabilidad colectiva de fomentar la armonía con la naturaleza y la Madre Tierra.
+
+
+Importancia del ecosistema marino, fuente freepik.es
+Desde su formación hasta hoy, la Tierra cumple 4,600 millones de años aproximadamente, mencionan los científicos. En todo este tiempo, el planeta ha sido capaz de regenerarse y tomar la distribución de los continentes hasta como ahora los conocemos. Todo ese recorrido en el tiempo, ha superado una serie de cambios que impactaron en la fauna y flora.
+
+Actualmente, aunque se dan esfuerzos para revertir el cambio climático, desastres naturales provocados por el hombre o bien, parte de la dinámica de la naturaleza, los mismos son pocos para el impacto negativo que algunas actividades del ser humano causan al planeta.
+
+
+Aunque la población crece, este ritmo no se refleja en muchas especies de fauna y flora, que ven cada año reducir las especies y, algunas ya forman parte de la lista de extinción.</p>
+
+<div>
+<img src="imagenes/tierra-12.jpg" width="60%" height="60%">
+<img src="imagenes/tierra-13.jpg" width="60%" height="60%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="10%" height="10%" alt="pie">
+</div>
+<h4>Joselin del Carmen Zuñiga Esquivel</h4>
+</div>
+</div>
+</div>
+
+<!---Pagina 4-->
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Díalogo sobre armonía con la naturaleza</h1>
+</div>
+<div data-role="content" align="center">
+<p>
+De forma resumida, estas son las 17 demandas:
+
+1.ª Crear una Vicepresidencia de Sostenibilidad y Ministerio de Medio Ambiente.
+
+2.ª Reforzar la Fiscalía Coordinadora de Medio Ambiente y Urbanismo y dotarla de más medios.
+
+3.ª Reconocer y reforzar el papel de las organizaciones ambientales.
+
+4.ª Establecer una Ley de Fiscalidad Ambiental que redistribuya la carga fiscal primando las buenas prácticas que promuevan el ahorro, la restauración ambiental y la creación de empleo ligado al medio ambiente.
+
+5.ª Poner en marcha un plan ambicioso de mejora de la calidad del aire de ámbito estatal.
+
+6.ª Prohibir de manera urgente el Bisfenol-A y otros disruptores endocrinos.
+
+7.ª Prohibir el uso y abuso de animales con fines lúdicos o publicitarios a través de una Ley de Protección Animal.
+
+8.ª Aprobar una Ley de Cambio Climático.
+
+9.ª Realizar una auditoría energética de los costes reales del sistema como primer paso para poner en marcha una nueva política energética coherente que impulse el ahorro y la eficiencia energética, la producción descentralizada de energía renovable eliminando las subvenciones a los combustibles fósiles y acometiendo el cierre de las centrales nucleares tras 30 años de funcionamiento.
+
+10.ª Aprobar una Ley de Movilidad Sostenible.
+
+11.ª No construir más embalses ni trasvases.
+
+12.ª Rediseñar una política agroalimentaria respetuosa con el medio ambiente.
+
+13.ª No dar ni un paso atrás en la política de tolerancia cero contra la pesca ilegal —IUU—.
+
+14.ª Apoyar a escala europea una política de Economía Circular ambiciosa que garantice una reducción del uso de recursos naturales por nuestra economía.
+
+15.ª Dotar económicamente el Fondo para la Conservación de la Biodiversidad para garantizar el cumplimiento del Plan Estratégico para el Patrimonio Natural.
+
+16.ª Derogar la modificación de la Ley de Costas para asegurar la conservación de los ecosistemas costeros amenazados.
+
+17.ª Rechazar explícitamente el Tratado Transatlántico de Comercio e Inversiones (TTIP).</p>
+
+<div>
+<img src="imagenes/tierra-14.jpg" width="60%" height="60%">
+<img src="imagenes/tierra-15.jpg" width="60%" height="60%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="10%" height="10%" alt="pie">
+</div>
+
+<h4>Joselin del Carmen Zuñiga Esquivel</h4>
+</div>
+</div>
+</div>
+
+<!---Pagina 5-->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Hacia una tierra sostenible</h1>
+</div>
+<div data-role="content" align="center">
+<p>Celebramos el Dia Internacional de la madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este dia, asumimos, ademas, la responsabilidad colectiva como nos recordaba la Declaracion de Rio de 1992, de fomentar esta armonia con la naturaleza y la madre Tierra.
+Este dia nos brinda tambien la oportunidad de concienciar a todos los habitantes del planeta acerca de los problemas que afectan a la Tierra y a las diferentes formas de la vida que en el se desarrollan.</p>
+
+<div>
+<img src="imagenes/tierra-16.jpg" width="60%" height="60%">
+<img src="imagenes/tierra-17.jpg" width="60%" height="60%">
+</div>
+</div>
+
+
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<center>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://wwwhttp:/andrescordova.com/8-dialogo-sobre-armonia-con-la-naturaleza-en-las-naciones-unidas/" target="_self" data-role="button">
+<h4>Ver más</h4>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Joselin del Carmen Zuñiga Esquivel</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
